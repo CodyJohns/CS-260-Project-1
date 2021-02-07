@@ -1,0 +1,385 @@
+body {
+	margin: 0 auto;
+	min-width:320px;
+	font-family: 'IBM Plex Sans', sans-serif;
+}
+
+#content {
+	width:100%;
+	height:auto;
+	float:left;
+}
+
+header {
+	width:88%;
+	height:60px;
+	padding-top:6px;
+	padding-left:12%;
+	font-family: "Arial";
+}
+
+.header {
+	width:88%;
+	height:60px;
+	padding-left:12%;
+	background-color:white;
+	box-shadow: 0 3px 7px 0px gray;
+	font-family: "Arial";
+	margin-bottom:20px;
+}
+
+article {
+	width:100%;
+	min-height:600px;
+	background-color:#fefefe;
+}
+
+.article {
+	width:100%;
+	min-height:350px;
+	background-color:#fefefe;
+	padding-top:100px;
+	text-align:center;
+}
+
+footer {
+	width:100%;
+	height:330px;
+	background-color:#312F2F;
+	padding-top:20px;
+	color:white;
+}
+
+#fbox {
+	width:70%;
+	margin:0 auto;
+	
+}
+
+.homepage {
+	width:100%;
+	height:600px;
+	background-color:#EF626C;
+}
+
+.prearticle {
+	width:100%;
+	min-height:400px;
+	background-color:#22181C;
+}
+
+#mob_menu {
+	width:70%;
+	min-height:951px;
+	padding-top:49px;
+	float:right;
+	display:none;
+	font-family: "Arial";
+}
+
+.menu_link {
+	min-width:100px;
+	height:40px;
+	padding-top:20px;
+	float:left;
+	color:#fefefe;
+	text-align:center;
+}
+.menu_link:hover {
+	background-color:#F6E8EA;
+	color:#22181C;
+	border-radius:3px;
+}
+
+.menu_link2 {
+	min-width:100px;
+	height:40px;
+	padding-top:20px;
+	float:left;
+	color:#111;
+	text-align:center;
+}
+.menu_link2:hover {
+	background-color:#EF626C;
+	color:#fefefe;
+	border-radius:3px;
+}
+
+.mob_menu_link {
+	width:100%;
+	height:34px;
+	padding-top:15px;
+	color:#fefefe;
+	text-align:center;
+	border-bottom:2px solid #222;
+}
+
+.menu_bar {
+	width:60px;
+	height:60px;
+	float:right;
+	margin-right:12px;
+	background-image:url(imgs/menua.png);
+	background-size:60px 60px;
+	display:none;
+	cursor:pointer;
+}
+
+.link {
+	text-decoration:none;
+	color:unset;
+}
+
+#logo {
+	width:100%;
+	margin:0 auto;
+	padding-top:100px;
+	text-align:center;
+}
+
+#llogo {
+	display:inline-block;
+	vertical-align:top;
+	margin-right:3%;
+}
+
+#logodesc {
+	width:400px;
+	padding-top:60px;
+	display:inline-block;
+	vertical-align:top;
+	text-align:left;
+	color:white;
+	font-size:32px;
+	margin-left:3%;
+}
+
+#seehow {
+	width:220px;
+	height:20px;
+	padding:15px 0 18px 0;
+	text-align:center;
+	border:2px solid white;
+	border-radius:10px;
+	color:white;
+	cursor:pointer;
+	margin: 0 auto;
+	margin-top:40px;
+	font-size:18px;
+}
+
+#prequr {
+	width:85%;
+	color:white;
+	font-size:28px;
+	margin:0 auto;
+	text-align:center;
+	padding-top:150px;
+}
+
+#prequr_bot {
+	width:85%;
+	color:white;
+	font-size:18px;
+	margin:0 auto;
+	text-align:center;
+	padding-top:20px;
+}
+
+#headsetpic {
+	width:85%;
+	max-width:500px;
+	display:inline-block;
+	vertical-align:top;
+	margin: 0 auto;
+	padding:0 20px 0 20px;
+}
+
+#hdsdesc {
+	width:90%;
+	max-width:400px;
+	display:inline-block;
+	vertical-align:top;
+	text-align:left;
+	margin: 0 auto;
+	padding:0 20px 0 20px;
+}
+
+.prodcont {
+	width:40%;
+	max-width:500px;
+	display:inline-block;
+	vertical-align:top;
+	margin:0 3% 0 3%;
+}
+
+.proddesc {
+	width:100%;
+	text-align:left;
+}
+
+#ppic {
+	width:100%;
+}
+
+#about_cont {
+	width:65%;
+	margin:0 auto;
+}
+
+.conta_box {
+	width:70%;
+	margin:0 auto;
+}
+
+#tbox {
+	width:300px;
+	height:40px;
+	padding: 0 2% 0 2%;
+	margin-bottom:20px;
+	border-radius:0px;
+	border:none;
+	border-bottom:3px solid #EF626C;
+	background-color:#e5e5e5;
+	outline:none;
+}
+
+#mbox {
+	width:100%;
+	min-height:300px;
+	border-radius:0px;
+	padding:2%;
+	border:none;
+	border-bottom:3px solid #EF626C;
+	background-color:#e5e5e5;
+	outline:none;
+	margin-bottom:20px;
+}
+
+#bbox {
+	width:300px;
+	height:40px;
+	margin:0 auto;
+}
+
+/* mobile phones */
+@media only screen and (max-width: 500px) {
+  .menu_link {
+	  display:none;
+  }
+  
+  .menu_link2 {
+	  display:none;
+  }
+  
+  .menu_bar {
+	  display:block;
+  }
+  
+  .homepage {
+	  height:700px;
+  }
+  
+  #llogo {
+	  width:90%;
+  }
+  
+  #logodesc {
+	  width:95%;
+  }
+  
+  .prearticle {
+	  height:500px;
+  }
+  
+  .article {
+	  height:500px;
+  }
+  
+  #fbox {
+	  width:85%;
+  }
+  
+  #headsetpic {
+	padding:0px;
+  }
+
+  #hdsdesc {
+	padding:0px;
+  }
+  
+  .prodcont {
+	  width:85%;
+  }
+  
+  #about_cont {
+	width:85%;
+  }
+  
+  .conta_box {
+	width:90%;
+  }
+  
+  #tbox {
+	width:100%;
+  }
+  
+  #bbox {
+	  width:100%;
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 501px) and (max-width: 960px) {
+  .menu_link {
+	  display:none;
+  }
+  
+  .menu_link2 {
+	  display:none;
+  }
+  
+  .menu_bar {
+	  display:block;
+  }
+  
+  .homepage {
+	  height: 760px
+  }
+  
+  .article {
+	  height:500px;
+  }
+  
+  #fbox {
+	  width:80%;
+  }
+  
+  #headsetpic {
+	padding:0px;
+  }
+
+  #hdsdesc {
+	padding:0px;
+  }
+  
+  .prodcont {
+	  width:70%;
+  }
+  
+  #about_cont {
+	width:75%;
+  }
+  
+  .conta_box {
+	width:80%;
+  }
+  
+  #tbox {
+	width:100%;
+  }
+  
+  #bbox {
+	  width:100%;
+  }
+}
